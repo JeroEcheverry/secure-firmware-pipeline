@@ -1,1 +1,8 @@
-
+name: hello-world
+on: push
+jobs:
+  saludo:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "inicio pipeline"
+ 
